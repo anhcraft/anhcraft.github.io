@@ -45,7 +45,7 @@
         <header class="text-4xl">Projects</header>
         <div class="pt-10 grid grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
           <div>
-            <header class="text-2xl">Pluginmcvn.cf (2017)</header>
+            <header class="text-2xl">Pluginmcvn.cf (2016)</header>
             <p>PluginMCVN was a website for sharing Minecraft resources, with payment support, management and stats system.</p>
             <div class="flex flex-row gap-2 mt-3">
               <a href="https://github.com/anhcraft/PluginMcVn">
