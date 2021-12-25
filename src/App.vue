@@ -36,14 +36,14 @@
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-10 grid-rows-6 h-screen">
+  <div class="grid grid-cols-10 md:grid-rows-6 md:h-screen">
     <div class="hidden lg:block col-start-2 col-span-1 row-start-2 relative">
       <img src="./assets/feather.png" class="absolute top-0 left-0 w-60 -z-10" alt=""/>
     </div>
-    <div class="col-start-1 sm:col-start-2 lg:col-start-3 col-end-10 row-span-1 lg:row-start-2">
+    <div class="col-start-1 sm:col-start-2 lg:col-start-3 col-end-11 sm:col-end-10 row-span-1 lg:row-start-2">
       <div class="divide-y divide-gray-300 p-10">
         <header class="text-4xl">Projects</header>
-        <div class="pt-10 grid grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
+        <div class="pt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
           <div>
             <header class="text-2xl">Pluginmcvn.cf (2016)</header>
             <p>PluginMCVN was a website for sharing Minecraft resources, with payment support, management and stats system.</p>
@@ -113,11 +113,11 @@
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-7 grid-rows-6 h-screen">
+  <div class="grid grid-cols-7 md:grid-rows-6 md:h-screen">
     <div class="col-start-1 lg:col-start-2 col-end-6 row-start-2 row-span-4">
       <div class="divide-y divide-gray-300 p-10">
         <header class="text-4xl lg:text-right">Works</header>
-        <div class="flex flex-col p-10">
+        <div class="flex flex-col p-5 md:p-10">
           <div>
             <img src="./assets/minehot.png" class="w-8 float-left" alt=""/>
             <p class="text-xl ml-10">Java Developer at Minehot (2021-)</p>
