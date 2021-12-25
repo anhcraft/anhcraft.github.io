@@ -113,9 +113,9 @@
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-7 md:grid-rows-6 md:h-screen">
-    <div class="col-start-1 lg:col-start-2 col-end-6 row-start-2 row-span-4">
-      <div class="divide-y divide-gray-300 p-10">
+  <div class="grid grid-cols-8 md:grid-rows-6 md:h-screen">
+    <div class="col-start-1 md:col-start-2 col-end-8 md:col-end-7 row-start-2 row-span-4">
+      <div class="divide-y divide-gray-300 p-5 md:p-10">
         <header class="text-4xl lg:text-right">Works</header>
         <div class="flex flex-col p-5 md:p-10">
           <div>
@@ -161,7 +161,7 @@
         </div>
       </div>
     </div>
-    <div class="hidden lg:block col-start-6 col-span-1 row-start-2 row-span-3 relative">
+    <div class="hidden lg:block col-start-7 col-span-1 row-start-2 row-span-3 relative">
       <img src="./assets/lantern.png" class="absolute top-0 left-0 w-32 -z-10" alt=""/>
     </div>
   </div>
