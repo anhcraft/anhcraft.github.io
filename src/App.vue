@@ -10,11 +10,10 @@
             <div class="divide-y divide-gray-300">
               <header class="text-3xl">Hi there!</header>
               <ul class="pt-5">
-                <li>I'm Duy Anh, currently a student, gonna be 18 next year.</li>
-                <li>I love programming, especially game-modding.</li>
-                <li>I've been a Bukkit developer for 4 years.</li>
+                <li>I'm Duy Anh. I love programming.</li>
+                <li>I build web apps and backend infrastructure.</li>
                 <li>My Discord: duyanh#1646</li>
-                <li>Email: admin@anhcraft.dev</li>
+                <li>Email: contact@anhcraft.dev</li>
               </ul>
             </div>
             <div class="flex flex-row gap-2 mt-5">
