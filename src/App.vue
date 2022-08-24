@@ -10,8 +10,8 @@
             <div class="divide-y divide-gray-300">
               <header class="text-3xl">Hi there!</header>
               <ul class="pt-5">
-                <li>I'm Duy Anh. I love programming.</li>
-                <li>I build web apps and backend infrastructure.</li>
+                <li>I'm Duy Anh - a self-taught software developer.</li>
+                <li>I love developing web app and software.</li>
                 <li>My Discord: duyanh#1646</li>
                 <li>Email: contact@anhcraft.dev</li>
               </ul>
