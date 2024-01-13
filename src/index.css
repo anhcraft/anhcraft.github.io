@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .fullpage {
+        @apply flex flex-col justify-center w-full min-h-screen
+    }
+    .tooltip {
+        @apply invisible absolute;
+    }
+    .has-tooltip:hover .tooltip {
+        @apply visible z-50;
+    }
+
+    .sonar-effect-icon {
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+        -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+        transition: transform ease-out 0.1s, background 0.2s;
+    }
+    .sonar-effect-icon:after {
+        content: '';
+        top: 0;
+        left: 0;
+        padding: 0;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+        opacity: 0;
+        transform: scale(0.9);
+        pointer-events: none;
+        box-sizing: content-box;
+    }
+    .sonar-effect-icon:hover {
+        background: rgba(255, 255, 255, 0.05);
+        transform: scale(0.93);
+        color: #fff;
+    }
+    .sonar-effect-icon:hover:after {
+        animation: sonarEffect 1.3s ease-out 25ms;
+    }
+    @keyframes sonarEffect {
+        0% {
+            opacity: 0.2;
+        }
+        40% {
+            opacity: 0.4;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #eedca0, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        100% {
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #eedca0, 0 0 0 10px rgba(255, 255, 255, 0.5);
+            transform: scale(1.5);
+            opacity: 0;
+        }
+    }
+
+    *::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    *::-webkit-scrollbar {
+        width: 7px;
+        background-color: #F5F5F5;
+    }
+    *::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #333;
+    }
+}

@@ -2,9 +2,15 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      'sans': ['Source Sans Pro', 'ui-sans-serif', 'system-ui'],
+      'sans': ['Poppins', 'ui-sans-serif', 'system-ui'],
+      'serif': ['Playfair Display', 'serif'],
     },
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1600px',
+        '4xl': '1800px',
+      },
+    }
   },
   plugins: [],
 }
