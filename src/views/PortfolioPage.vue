@@ -1,10 +1,11 @@
 <script lang="ts">
+import { defineComponent } from 'vue'
 import productData from "../data/products";
 import {Squares2X2Icon} from '@heroicons/vue/16/solid'
 import {ListBulletIcon} from '@heroicons/vue/16/solid'
 import {GlobeAltIcon} from '@heroicons/vue/16/solid'
 
-export default {
+export default defineComponent({
   name: "PortfolioPage",
   components: {
     Squares2X2Icon,
@@ -31,7 +32,7 @@ export default {
           .sort((a: any, b: any) => b.date - a.date || a.name.localeCompare(b.name))
     }
   }
-}
+})
 </script>
 
 <template>
@@ -43,7 +44,7 @@ export default {
       </div>
       <div class="xl:w-5/6 3xl:w-3/4">
         <ul class="flex flex-wrap gap-x-3 gap-y-1 md:block">
-          <li v-for="(category, i) in categories" @click="activeCategory = i" :key="category" class="text-sm border
+          <li v-for="(category, i) in categories" @click="activeCategory = i" class="text-sm border
           border-indigo-600 rounded-md px-3 py-1 cursor-pointer hover:bg-indigo-600 hover:text-white duration-500 mt-2"
             :class="{'bg-indigo-600 text-white' : activeCategory === i}">{{ category }} ({{ productData()[i].items.length }})</li>
         </ul>
