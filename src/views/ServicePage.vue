@@ -24,7 +24,7 @@ function formatDays(days: number): string {
   <div class="grow m-auto w-full lg:w-3/4 xl:w-1/2 px-10 lg:px-0 py-24 flex flex-col gap-y-10">
     <header>
       <h1 class="text-4xl">Minecraft services</h1>
-      <p class="italic mt-3 text-justify">I am Duy Anh - I possess 6 years of experience within the Minecraft modding community, commencing in 2017. I have undertaken diverse responsibilities throughout my journey, such as plugin development, server ownership, and configuration management. I am pleased to apply my expertise in offering freelance development services, aiming to facilitate the creation of exceptional extensions that cater to the diverse needs of players.</p>
+      <p class="italic mt-3 text-justify">I am Anh Duy - I possess 6 years of experience within the Minecraft modding community, commencing in 2017. I have undertaken diverse responsibilities throughout my journey, such as plugin development, server ownership, and configuration management. I am pleased to apply my expertise in offering freelance development services, aiming to facilitate the creation of exceptional extensions that cater to the diverse needs of players.</p>
       <p class="mt-3 font-semibold">Contact me through Discord: #duyanh or join my <a href="https://discord.gg/HRAEKapRwx" target="_blank" class="underline">Discord server</a></p>
     </header>
     <section>

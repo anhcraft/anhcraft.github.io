@@ -4,7 +4,7 @@ const productData = [
         items: [
             {
                 name: "EnchantNangCao",
-                description: "A custom enchantment plugin for Vietnamese market",
+                description: "A custom enchantment plugin",
                 image: null,
                 date: 2017,
                 links: {
@@ -54,13 +54,13 @@ const productData = [
             },
             {
                 name: "Server Guard",
-                description: "Enhance server security - Vietnamese-only plugin",
+                description: "Enhance server security / Bukkit & Bungeecord",
                 image: null,
                 date: 2019
             },
             {
                 name: "CronJobs",
-                description: "A cron jobs plugin for Vietnamese market",
+                description: "A powerful cron jobs plugin",
                 image: null,
                 date: 2019
             },
@@ -182,7 +182,8 @@ const productData = [
                 name: "Let's learn English",
                 description: "Play English game (attend Tin hoc Tre competition)",
                 image: null,
-                date: 2018
+                date: 2018,
+                hidden: true
             },
             {
                 name: "Vui Hoc Toan 11",
@@ -191,7 +192,8 @@ const productData = [
                 date: 2021,
                 links: {
                     github: "anhcraft/vht11"
-                }
+                },
+                hidden: true
             },
             {
                 name: "racing",
@@ -223,19 +225,22 @@ const productData = [
                 date: 2015,
                 links: {
                     github: "anhcraft/AFS"
-                }
+                },
+                hidden: true
             },
             {
                 name: "meCube",
                 description: "Draw using commands (attend Tin hoc Tre competition)",
                 image: null,
-                date: 2017
+                date: 2017,
+                hidden: true
             },
             {
                 name: "SchoolManagement",
                 description: "A web app to manage students and staff (attend Tin hoc Tre competition)",
                 image: null,
-                date: 2019
+                date: 2019,
+                hidden: true
             },
             {
                 name: "Text-replacing generator",
@@ -257,7 +262,8 @@ const productData = [
                 name: "English Learning",
                 description: "An English learning app to attend Tin hoc Tre competition",
                 image: null,
-                date: 2022
+                date: 2022,
+                hidden: true
             },
             {
                 name: "IELTS Band Score Calculator",
@@ -367,7 +373,8 @@ const productData = [
                 date: 2022,
                 links: {
                     github: "anhcraft/vhl10"
-                }
+                },
+                hidden: true
             },
             {
                 name: "mcbot",

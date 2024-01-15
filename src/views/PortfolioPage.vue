@@ -24,11 +24,11 @@ export default defineComponent({
     }
   },
   methods: {
-    productData() {
-      return productData
+    productItems(i: number) {
+      return productData[i].items.filter((item: any) => !item.hasOwnProperty("hidden") || !item.hidden)
     },
     products(): Array<any> {
-      return productData[this.activeCategory].items
+      return this.productItems(this.activeCategory)
           .sort((a: any, b: any) => b.date - a.date || a.name.localeCompare(b.name))
     }
   }
@@ -46,7 +46,7 @@ export default defineComponent({
         <ul class="flex flex-wrap gap-x-3 gap-y-1 md:block">
           <li v-for="(category, i) in categories" @click="activeCategory = i" class="text-sm border
           border-indigo-600 rounded-md px-3 py-1 cursor-pointer hover:bg-indigo-600 hover:text-white duration-500 mt-2"
-            :class="{'bg-indigo-600 text-white' : activeCategory === i}">{{ category }} ({{ productData()[i].items.length }})</li>
+            :class="{'bg-indigo-600 text-white' : activeCategory === i}">{{ category }} ({{ productItems(i).length }})</li>
         </ul>
         <p class="text-sm italic mt-5">The list does not include lost and NDA-protected works</p>
       </div>
