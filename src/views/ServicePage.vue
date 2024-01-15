@@ -28,29 +28,26 @@ function formatDays(days: number): string {
       <p class="mt-3 font-semibold">Contact me through Discord: #duyanh or join my <a href="https://discord.gg/HRAEKapRwx" target="_blank" class="underline">Discord server</a></p>
     </header>
     <section>
-      <h3 class="text-3xl">My skills</h3>
-      <p>I have applied several technologies so far:</p>
+      <h3 class="text-3xl">Services</h3>
       <ul class="list-disc list-inside">
-        <li>Minecraft server-side modding: Bukkit API (Spigot, Paper, Purpur, etc), Bungeecord API, Velocity API</li>
-        <li>Minecraft client-side modding: Fabric</li>
-        <li>Minecraft 3rd plugins: PlaceholderAPI, Vault, WorldEdit, WorldGuard, SlimeWorldManager, Geyser, Floodgate, MythicMobs, ItemsAdder/Oxaren, MMOItems, MMOCore, NBT API, ProtocolLib</li>
-        <li>Languages: Java, Kotlin, Go, Web (HTML/CSS/JS/TS), PHP</li>
-        <li>Framework: Go/Fiber, TS/Vue.js/TailwindCSS</li>
-        <li>Database: MySQL, Microsoft SQL Server, PostgreSQL</li>
-        <li>Cache & Queue: Redis, RabbitMQ</li>
-        <li>Infrastructure: Nginx, Apache2</li>
-        <li>Cloud: Firebase, GCP</li>
+        <li>Plugin development: Spigot, Paper, Bungeecord, Velocity</li>
+        <li>Plugin modification: extend functionalities of existing plugins</li>
+        <li>Plugin upgrade: update plugins from legacy versions</li>
+        <li>Other: Discord bots, Telegram bots, Programs, Web apps</li>
       </ul>
     </section>
     <section>
-      <h3 class="text-3xl">What can I do?</h3>
+      <h3 class="text-3xl">Skills</h3>
+      <p>I have applied several technologies so far:</p>
       <ul class="list-disc list-inside">
-        <li>Plugin development: create Bukkit plugins (Spigot, Paper), Bungeecord plugins, Velocity plugins</li>
-        <li>Integrated development: integrate different technologies and platforms (Discord, Telegram, your website, etc)</li>
-        <li>Server configuration: Configure the server core and plugins</li>
-        <li>Plugin analysis: Analyze plugins for errors and security concerns</li>
-        <li>Plugin upgrade: Update plugins from legacy versions</li>
-        <li>Other: Programs, Web apps</li>
+        <li>Minecraft modding: Spigot, Paper, Purpur, Bungeecord, Velocity, Fabric</li>
+        <li>Minecraft plugins: PlaceholderAPI, Vault, WorldEdit, WorldGuard, SlimeWorldManager, Geyser, Floodgate, MythicMobs, ItemsAdder/Oxaren, MMOItems, MMOCore, NBT API, ProtocolLib</li>
+        <li>Languages: Java, Kotlin, Go, PHP, Web (HTML/CSS/JS/TS)</li>
+        <li>Framework: Go/Fiber, TS/Vue.js/TailwindCSS</li>
+        <li>Database: MySQL, Microsoft SQL Server, PostgreSQL, MongoDB</li>
+        <li>Cache & Queue: Redis, RabbitMQ</li>
+        <li>Infrastructure: Nginx, Apache, Docker</li>
+        <li>Cloud: Firebase, GCP</li>
       </ul>
     </section>
     <section>
@@ -59,7 +56,7 @@ function formatDays(days: number): string {
         <li>The cost depends on 3 factors: complexity, familiarity and deadline</li>
         <li>The cost includes full <b>source-code</b> and relevant <b>documents</b></li>
         <li>You must pay <b>50%</b> upfront before I start the work</li>
-        <li>You must pay <b>50%</b> remaining after verifying the showcase / before receiving the product</li>
+        <li>You must pay <b>50%</b> remaining before receiving the final product</li>
         <li>Payment: PayPal (preferred) or cryptocurrency</li>
       </ul>
     </section>
@@ -76,7 +73,7 @@ function formatDays(days: number): string {
       <h3 class="text-3xl">Examples</h3>
       <aside class="italic">
         Here are some examples from earlier client requests. Note, the pricing and timeline can greatly fluctuate depending
-        on the details of the project. Contact me for more details.
+        on the details of the project. Contact me for exact quote.
       </aside>
       <table class="w-full border-collapse border border-slate-400 text-sm">
         <thead>
@@ -103,9 +100,11 @@ function formatDays(days: number): string {
       </ul>
     </section>
     <section>
-      <h3 class="text-3xl">Discount</h3>
+      <h3 class="text-3xl">Discounts</h3>
+      <p>Each discount is only applicable to one product, and stacking discounts is not permitted.</p>
       <ul class="list-disc list-inside">
-        <li><b>One-time 20% off for a single product</b> (maximum $100) if you agree to write a review of my service and allow me to record a short clip about your plugin (without disclosing full functionalities and other confidential information)</li>
+        <li><b>One-time 10% off</b> (maximum $100) if you write a review of my service</li>
+        <li><b>One-time 10% off</b> (maximum $100) if you allow me to record a short clip about your plugin for showcasing my capabilities (without disclosing full functionalities and confidential information)</li>
         <li>I also offer discounts on special occasions</li>
       </ul>
     </section>
@@ -129,7 +128,7 @@ function formatDays(days: number): string {
           <ul class="list-disc list-inside">
             <li>✅ You are allowed to distribute the product and relevant files within your team</li>
             <li>✅ You are allowed to share the product and relevant files publicly <b>for free</b></li>
-            <li>❌ You are <b>disallowed</b> to <b>sell</b> the product</li>
+            <li>❌ You are <b>disallowed</b> to <b>sell</b> the product without my permission</li>
           </ul>
         </li>
       </ol>
