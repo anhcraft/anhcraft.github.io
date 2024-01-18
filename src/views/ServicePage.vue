@@ -104,7 +104,6 @@ function formatDays(days: number): string {
       <p>Each discount is only applicable to one product, and stacking discounts is not permitted.</p>
       <ul class="list-disc list-inside">
         <li><b>One-time 10% off</b> (maximum $100) if you write a review of my service</li>
-        <li><b>One-time 10% off</b> (maximum $100) if you allow me to record a short clip about your plugin for showcasing my capabilities (without disclosing full functionalities and confidential information)</li>
         <li>I also offer discounts on special occasions</li>
       </ul>
     </section>

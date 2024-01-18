@@ -11,27 +11,22 @@ const productData = [
     },
     {
         desc: "x5 RPG items with simple abilities and effects",
-        cost: 100,
+        cost: 140,
         timeline: 4
     },
     {
         desc: "A PvP event plugin for a SMP server",
-        cost: 150,
+        cost: 180,
         timeline: 4
     },
     {
         desc: "A gambling plugin with GUI, Vault hook",
-        cost: 180,
+        cost: 200,
         timeline: 5
     },
     {
-        desc: "A 6x6 custom crafting plugin - GUI-based",
-        cost: 200,
-        timeline: 6
-    },
-    {
         desc: "Custom vehicles with Model Engine support",
-        cost: 220,
+        cost: 280,
         timeline: 7
     }
 ]
