@@ -156,6 +156,24 @@ const productData = [
         name: "Minecraft mods",
         items: [
             {
+                name: "Grimoire",
+                description: "A Fabric server-side mod to enhance item upgrade mechanism",
+                image: null,
+                date: 2023,
+                links: {
+                    github: "phomc/grimoire"
+                }
+            },
+            {
+                name: "Tensai",
+                description: "Yet another Minecraft library (W.I.P)",
+                image: null,
+                date: 2022,
+                links: {
+                    github: "phomc/tensai"
+                }
+            },
+            {
                 name: "honeymod",
                 description: "Minecraft mod adds some bee/honey-related stuffs",
                 image: null,
