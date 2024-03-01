@@ -42,12 +42,10 @@ function formatDays(days: number): string {
       <ul class="list-disc list-inside">
         <li>Minecraft modding: Spigot, Paper, Purpur, Bungeecord, Velocity, Fabric</li>
         <li>Minecraft plugins: PlaceholderAPI, Vault, WorldEdit, WorldGuard, SlimeWorldManager, Geyser, Floodgate, MythicMobs, ItemsAdder/Oxaren, MMOItems, MMOCore, NBT API, ProtocolLib</li>
-        <li>Languages: Java, Kotlin, Go, PHP, Web (HTML/CSS/JS/TS)</li>
+        <li>Languages: Java, Kotlin, Go, PHP, HTML/CSS/JS/TS</li>
         <li>Framework: Go/Fiber, TS/Vue.js/TailwindCSS</li>
-        <li>Database: MySQL, Microsoft SQL Server, PostgreSQL, MongoDB</li>
-        <li>Cache & Queue: Redis, RabbitMQ</li>
-        <li>Infrastructure: Nginx, Apache, Docker</li>
-        <li>Cloud: Firebase, GCP</li>
+        <li>Database: MySQL, Microsoft SQL Server, PostgreSQL</li>
+        <li>Other: Redis, Nginx, Apache, Docker</li>
       </ul>
     </section>
     <section>
@@ -100,14 +98,6 @@ function formatDays(days: number): string {
       </ul>
     </section>
     <section>
-      <h3 class="text-3xl">Discounts</h3>
-      <p>Each discount is only applicable to one product, and stacking discounts is not permitted.</p>
-      <ul class="list-disc list-inside">
-        <li><b>One-time 10% off</b> (maximum $100) if you write a review of my service</li>
-        <li>I also offer discounts on special occasions</li>
-      </ul>
-    </section>
-    <section>
       <h3 class="text-3xl">Terms of service</h3>
       <p>When you purchase a product, you automatically agree to the following terms:</p>
       <ol class="list-decimal list-inside">
@@ -127,7 +117,7 @@ function formatDays(days: number): string {
           <ul class="list-disc list-inside">
             <li>✅ You are allowed to distribute the product and relevant files within your team</li>
             <li>✅ You are allowed to share the product and relevant files publicly <b>for free</b></li>
-            <li>❌ You are <b>disallowed</b> to <b>sell</b> the product without my permission</li>
+            <li>❌ You are <b>disallowed</b> to <b>resell</b> the product without my permission</li>
           </ul>
         </li>
       </ol>

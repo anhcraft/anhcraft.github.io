@@ -1,10 +1,5 @@
 const productData = [
     {
-        desc: "A simple chat plugin: per-rank chat message + PlaceholderAPI",
-        cost: 10,
-        timeline: 1
-    },
-    {
         desc: "Simple coin system + PlaceholderAPI",
         cost: 30,
         timeline: 2
@@ -18,11 +13,6 @@ const productData = [
         desc: "A PvP event plugin for a SMP server",
         cost: 180,
         timeline: 4
-    },
-    {
-        desc: "A gambling plugin with GUI, Vault hook",
-        cost: 200,
-        timeline: 5
     },
     {
         desc: "Custom vehicles with Model Engine support",
