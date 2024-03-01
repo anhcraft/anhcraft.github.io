@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,a as e}from"./index-1EBpjna7.js";const c={},l={class:"grow m-auto w-full lg:w-3/4 xl:w-1/2 px-10 lg:px-0 py-24 flex flex-col gap-y-10"},a=e("header",null,[e("h1",{class:"text-4xl"},"Blog")],-1),_=[a];function n(r,x){return s(),t("div",l,_)}const f=o(c,[["render",n]]);export{f as default};
