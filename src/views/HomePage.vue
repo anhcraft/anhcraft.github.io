@@ -9,12 +9,12 @@ import {ArrowRightIcon} from '@heroicons/vue/16/solid'
         <h1 class="font-serif	text-6xl py-5">Hi,<br/>I'm <span class="text-indigo-600">Duy Anh</span></h1>
         <h2 class="text-4xl text-neutral-700">Software Engineer</h2>
         <p class="text-neutral-400 py-5">A sophomore student with a passion for building awesome products</p>
-        <button class="bg-indigo-600 px-4 py-2 rounded-md	text-white hire-btn flex items-center" v-on:click="$router.push('/services')">
+        <!--<button class="bg-indigo-600 px-4 py-2 rounded-md	text-white hire-btn flex items-center" v-on:click="$router.push('/services')">
           Hire me
           <span class="ml-4">
           <ArrowRightIcon class="size-4"/>
         </span>
-        </button>
+        </button>-->
         <div class="mt-10 flex gap-5">
           <div class="has-tooltip">
             <div class="tooltip rounded shadow-lg px-2 bg-gray-100 mt-8">Private xD</div>

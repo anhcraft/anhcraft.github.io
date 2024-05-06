@@ -9,9 +9,9 @@
     <div class="pr-5 md:pr-10 relative">
       <router-link to="/portfolio" class="underline-effect relative">Portfolio</router-link>
     </div>
-    <div class="pr-5 md:pr-10 relative">
+    <!--<div class="pr-5 md:pr-10 relative">
       <router-link to="/services" class="underline-effect relative">Services</router-link>
-    </div>
+    </div>-->
     <div class="relative">
       <router-link to="/blog" class="underline-effect relative">Blog</router-link>
     </div>

@@ -3,7 +3,7 @@ import HomePage from "./views/HomePage.vue";
 
 const routes = [
     { path: '/', component: HomePage },
-    { path: '/services',  component: () => import('./views/ServicePage.vue')  },
+    //{ path: '/services',  component: () => import('./views/ServicePage.vue')  },
     { path: '/portfolio',  component: () => import('./views/PortfolioPage.vue')  },
     { path: '/blog',  component: () => import('./views/BlogPage.vue')  },
 ]
